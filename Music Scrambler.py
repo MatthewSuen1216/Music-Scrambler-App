@@ -2,7 +2,7 @@ import os, fnmatch, random
 
 file_path = 'D:\\Testing Folder\\'
 
-files_to_rename = fnmatch.filter(os.listdir(file_path), '*.mp4')
+files_to_rename = fnmatch.filter(os.listdir(file_path), '*.mp3')
 
 total_files = len(files_to_rename)
 
